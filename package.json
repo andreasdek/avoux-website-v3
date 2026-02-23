@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/finsweet/developer-starter.git"
+    "url": "git+https://github.com/andreasdek/avoux-website-v3.git"
   },
   "bugs": {
-    "url": "https://github.com/finsweet/developer-starter/issues"
+    "url": "https://github.com/andreasdek/avoux-website-v3/issues"
   },
   "type": "module",
   "main": "src/index.ts",
