@@ -1,13 +1,14 @@
 {
-  "name": "@finsweet/developer-starter",
+  "name": "@avoux/website-v3",
   "version": "0.0.0",
-  "description": "Developer starter template for Finsweet projects.",
-  "homepage": "https://github.com/finsweet/developer-starter#readme",
+  "packageManager": "pnpm@10.30.1",
+  "description": "Frontend code for AVOUX' website",
+  "homepage": "https://avoux.io",
   "license": "ISC",
   "keywords": [],
   "author": {
-    "name": "Finsweet",
-    "url": "https://finsweet.com/"
+    "name": "AVOUX",
+    "url": "https://avoux.io/"
   },
   "repository": {
     "type": "git",
