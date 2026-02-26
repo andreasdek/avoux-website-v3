@@ -2,6 +2,8 @@ import { gsap } from 'gsap';
 import { Flip } from 'gsap/Flip';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
+import { initMaskTextScrollReveal } from './maskedTextReveal';
+
 gsap.registerPlugin(ScrollTrigger, Flip);
 
 type ScrollRangeArgs = {
@@ -12,6 +14,7 @@ type ScrollRangeArgs = {
 };
 
 export function initBackgroundZoom(): void {
+  initMaskTextScrollReveal();
   const containers = Array.from(document.querySelectorAll<HTMLElement>('[data-bg-zoom-init]'));
   if (containers.length === 0) return;
 
