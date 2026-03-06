@@ -1,6 +1,7 @@
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import { dotFlipHover } from '$utils/dotFlipHover';
+import { initHorizontalScrolling } from '$utils/horizontalScrolling';
 import { initWallCycle } from '$utils/logoWall';
 import { initStickyFeatures } from '$utils/stickyCards';
 
@@ -10,6 +11,7 @@ window.Webflow.push(() => {
   initWallCycle();
   dotFlipHover();
   initStickyFeatures();
+  initHorizontalScrolling();
 
   // 2) ONE global refresh after everything is created
   requestAnimationFrame(() => {
