@@ -1,5 +1,18 @@
 # @avoux/website-v3
 
+## 0.3.0
+
+### Minor Changes
+
+- 0ec40ff: image background to zoom
+- 93ed861: Add the sticky cards feature
+- 0aab82b: Horizontal scrolling functionality
+- b91a366: masked text reveal functionality
+
+### Patch Changes
+
+- 93ed861: some patching sticky cards
+
 ## 0.2.0
 
 ### Minor Changes
